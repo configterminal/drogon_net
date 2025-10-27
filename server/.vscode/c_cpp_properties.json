@@ -1,0 +1,32 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/third_party/drogon/lib/inc",
+                "${workspaceFolder}/third_party/drogon/trantor/trantor",
+                "${workspaceFolder}/third_party/jwt-cpp/include",
+                "${workspaceFolder}/third_party/libbcrypt/include",
+                "${workspaceFolder}/third_party/jsoncpp/include",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/include/jsoncpp",
+                "/usr/include/postgresql",
+                "/usr/include/mariadb"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ]
+}
